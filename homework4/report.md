@@ -1,3 +1,53 @@
+<!-- TOC -->
+
+- [Fantasy Skybox Free](#fantasy-skybox-free)
+    - [下载Fantasy Skybox Free并导入](#下载fantasy-skybox-free并导入)
+    - [创建material](#创建material)
+    - [地形](#地形)
+    - [总结](#总结)
+- [牧师与魔鬼V2](#牧师与魔鬼v2)
+    - [该版本改进的目的](#该版本改进的目的)
+    - [UML图](#uml图)
+    - [动作管理类图描述与实现](#动作管理类图描述与实现)
+        - [动作事件接口ISSActionCallback](#动作事件接口issactioncallback)
+        - [动作管理基类SSActionManager](#动作管理基类ssactionmanager)
+        - [移动动作实现CCMoveToAction](#移动动作实现ccmovetoaction)
+        - [组合动作实现](#组合动作实现)
+        - [动作基类](#动作基类)
+        - [移动动作管理实现](#移动动作管理实现)
+        - [裁判类](#裁判类)
+
+<!-- /TOC -->
+
+# Fantasy Skybox Free
+
+## 下载Fantasy Skybox Free并导入
+
+![2](img/2.png)
+
+## 创建material
+
+创建一个Material，并且在Inspector中的Shader选择为Skybox->6 Sided，并且拖入文件夹中的天空材质图
+
+![3](img/3.png)
+
+然后选取摄像机对象，增加Component——Rendering，选择为Skybox，并拖入制作好的Material。
+
+![4](img.png)
+
+## 地形
+
+创建地形，我们可以直接使用 Fantasy Skybox FREE中的地形，也可以自己创建自己的地形。我这里直接用了自带的地形。
+
+如图：
+
+![5](img/5.png)
+
+## 总结
+
+首先游戏对象包括常规的3D和2D对象，还包括摄像机和光源等这种特殊对象。每个对象都有自己的相关属性（如材质，位置等等），还可以附加component（脚本等），对象之前也可以有附属关系，对象还可以通过脚本来创建。
+
+
 # 牧师与魔鬼V2
 
 ## 该版本改进的目的
@@ -329,4 +379,4 @@ public class Referee : MonoBehaviour
 ```
 
 [演示视频](https://www.bilibili.com/video/BV1Sa411w7EV)
-[asset链接]()
+[asset链接](https://github.com/AdamCXY/unity3D/tree/main/homework4/Assets)
