@@ -33,7 +33,7 @@
 
 然后选取摄像机对象，增加Component——Rendering，选择为Skybox，并拖入制作好的Material。
 
-![4](img.png)
+![4](img/4.png)
 
 ## 地形
 
