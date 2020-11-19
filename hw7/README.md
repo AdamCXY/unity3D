@@ -391,6 +391,7 @@ public class CCTracertAction : SSAction
 ## 1.4. 视频连接
 
 [神秘链接](https://www.bilibili.com/video/bv1dK411G77Q)
+项目assets见当前目录下
 
 鸣谢师兄们的详细指导，pml大好人！
 
