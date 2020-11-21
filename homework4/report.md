@@ -378,5 +378,5 @@ public class Referee : MonoBehaviour
 }
 ```
 
-[演示视频](https://www.bilibili.com/video/BV1Sa411w7EV)
+[演示-视频](https://www.bilibili.com/video/BV1Sa411w7EV)
 [asset链接](https://github.com/AdamCXY/unity3D/tree/main/homework4/Assets)
