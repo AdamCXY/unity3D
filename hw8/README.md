@@ -131,8 +131,6 @@
 
 ![3](img/3.png)
 
-两个环的颜色分别是这样，感觉还挺好看的 ·~·
-
 ```C#
   /*增加成员*/
   public Gradient colorGradient;                                  // 颜色渐变
