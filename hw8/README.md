@@ -92,7 +92,7 @@
   circle[i].radius += Mathf.PingPong(circle[i].time / minRadius / maxRadius, pingPong) - pingPong / 2.0f;
 ```
   
-这里的pingpong是游离范围，最后`- pingpong / 2.0f`是为了radius有增有减，不过中间为什么要除最小半径和最大半径没怎么看懂。
+这里的pingpong是游离范围，最后`- pingpong / 2.0f`是为了radius有增有减，不过中间为什么要除最小半径和最大半径没怎么看懂。。。
   
 - 径向随鼠标收缩运动：
 
