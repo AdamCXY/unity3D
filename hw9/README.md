@@ -1,6 +1,14 @@
-# 实现简单的血条
+<!-- TOC -->
 
-## 使用IMGUI实现
+- [1. 实现简单的血条](#1-实现简单的血条)
+    - [1.1. 使用IMGUI实现](#11-使用imgui实现)
+    - [1.2. 使用UGUI实现](#12-使用ugui实现)
+
+<!-- /TOC -->
+
+# 1. 实现简单的血条
+
+## 1.1. 使用IMGUI实现
 
 官方提供了OnGUI函数来开发UI界面，当然问题也比较多，首先不支持可视化开发，其次UI始终位于所有3D对象的上方，无法实现在UI上添加3D模型的效果。
 
@@ -28,7 +36,7 @@ public class IMGUI : MonoBehaviour {
 
 ![1](img/2.png)
 
-## 使用UGUI实现
+## 1.2. 使用UGUI实现
 
 UGUI需要配合canvas来使用，所以首先来配置canvas。
 
@@ -74,3 +82,6 @@ public class UIScript : MonoBehaviour {
 ```
 
 ![2](img/1.png)
+
+[assets链接](https://github.com/caoxy7/unity3D/tree/main/hw9)
+
